@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+body {
+    background-color: rgb(135, 138, 138);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    background-image: url("IMAGENES/ENCABEZADO.png");
+    background-size:cover;
+    height: 140px;
+    margin: auto;
+}
+
+.logocont {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.divtitulo { 
+    background: rgb(19, 17, 17);
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 20px;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    
+}
+
+.titulo {
+    color: white;
+    font-size: 15px;
+    padding-right: 20px;
+    text-align: right;
+    
+}
+.titulo2 {
+    width: 100% ;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 20px ;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+
+}
+.contenido {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.tema {
+    background: rgb(19, 17, 17);
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+
+}
+
+.imagcont {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.imagentema {
+    width: 100%;
+}
+
+.titulotema {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: auto;
+}
+.figuicon {
+    width: 25px;
+}
+
+.red {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.redirection {
+    color: white;
+    padding-top: 8px;
+    padding-right: 30px;
+    font-size: 13px;
+}
+
+.audio {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.MP3 {
+    width: 120px;
+    height: 24px;
+}
+
+.descarga {
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+}
+
+footer {
+    background: rgb(19, 17, 17);
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 70px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.arroba {
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
+.demo-icon {
+    color: white;
+}
+
+.copy {
+    color: white;
+    font-size: 10px;
+    margin-top: 5px;
+}
